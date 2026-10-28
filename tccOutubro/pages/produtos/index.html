@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Produtos | Avance BikeShop</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Avance BikeShop</a>
+
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html" class="ativo">Produtos</a></li>
+        <li><a href="pages/peças/index.html">Peças</a></li>
+        <li><a href="em-construcao.html">Serviços</a></li>
+      </ul>
+
+      <a href="pages/login/index.html" class="btn-login">
+        Entrar
+      </a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="pagina-topo">
+      <span class="etiqueta">AVANCE BIKE SHOP</span>
+      <h1>Nossos produtos</h1>
+      <p>
+        Encontre os componentes e acessórios ideais para
+        melhorar sua experiência sobre duas rodas.
+      </p>
+    </section>
+
+    <section class="vitrine">
+
+      <div class="vitrine-topo">
+        <div>
+          <h2>Explore nosso catálogo</h2>
+          <p>Escolha um produto para ver seus detalhes.</p>
+        </div>
+
+        <span id="contador">Carregando produtos...</span>
+      </div>
+
+      <div class="ferramentas">
+        <input
+          type="search"
+          id="busca"
+          placeholder="Buscar produto..."
+          aria-label="Buscar produto pelo nome"
+        >
+
+        <select id="filtro-categoria" aria-label="Filtrar por categoria">
+          <option value="todos">Todas as categorias</option>
+        </select>
+
+        <select id="ordenacao" aria-label="Ordenar produtos">
+          <option value="padrao">Ordem padrão</option>
+          <option value="menor-preco">Menor preço</option>
+          <option value="maior-preco">Maior preço</option>
+          <option value="nome">Nome A–Z</option>
+        </select>
+      </div>
+
+      <div class="layout-produtos">
+
+        <section class="catalogo" aria-label="Lista de produtos">
+          <div id="lista-produtos" class="produtos-grid"></div>
+
+          <p id="mensagem-vazia" hidden>
+            Nenhum produto encontrado.
+          </p>
+        </section>
+
+        <aside
+          id="detalhes-produto"
+          class="detalhes"
+          aria-live="polite"
+        >
+          <div class="detalhes-vazio">
+            <span class="icone-vazio">🚲</span>
+            <h2>Escolha seu próximo upgrade</h2>
+            <p>
+              Clique em um produto do catálogo para visualizar
+              sua descrição, preço e especificações.
+            </p>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <section class="chamada">
+      <h2>Pedale mais longe. Vá mais além.</h2>
+      <p>
+        Encontre os produtos certos para sua próxima aventura.
+      </p>
+      <a href="index.html" class="btn-principal">
+        Voltar ao início
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Avance BikeShop. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

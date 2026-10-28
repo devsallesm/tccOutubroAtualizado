@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Cadastro | Avance BikeShop</title>
+</head>
+
+<body class="pagina-login">
+
+  <header class="login-topo">
+    <a href="index.html" class="login-logo">
+      <img src="../../assets/logo.jpeg" alt="">
+    </a>
+
+    <a href="index.html" class="login-voltar">
+      Voltar ao início
+    </a>
+  </header>
+
+  <main class="login-main cadastro-main">
+
+    <!-- Banner à esquerda -->
+    <div class="login-banner">
+      <div class="login-banner-conteudo">
+        <h1>Faça parte da nossa jornada.</h1>
+
+        <p>
+          Crie sua conta na Avance BikeShop e tenha acesso
+          aos nossos produtos, serviços e agendamentos.
+          Sua próxima aventura começa aqui.
+        </p>
+      </div>
+    </div>
+
+    <!-- Formulário à direita -->
+    <section class="login-section cadastro-section">
+
+      <div class="login-box cadastro-box">
+
+        <h2>Crie sua conta</h2>
+
+        <p class="login-subtitulo">
+          Preencha os dados abaixo para se cadastrar.
+        </p>
+
+        <form id="form-cadastro" action="#" method="post">
+
+          <div class="login-campo">
+            <label for="cpf">CPF</label>
+
+            <input
+              type="text"
+              id="cpf"
+              name="cpf"
+              placeholder="000.000.000-00"
+              inputmode="numeric"
+              maxlength="14"
+              autocomplete="off"
+              required
+            >
+          </div>
+
+          <div class="login-campo">
+            <label for="nascimento">Data de nascimento</label>
+
+            <input
+              type="date"
+              id="nascimento"
+              name="data_nascimento"
+              autocomplete="bday"
+              required
+            >
+          </div>
+
+          <div class="login-campo">
+            <label for="email">E-mail</label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Digite seu e-mail"
+              autocomplete="email"
+              required
+            >
+          </div>
+
+          <div class="login-campo">
+            <label for="senha">Senha</label>
+
+            <input
+              type="password"
+              id="senha"
+              name="senha"
+              placeholder="Crie uma senha"
+              autocomplete="new-password"
+              minlength="8"
+              required
+            >
+
+            <small class="cadastro-ajuda">
+              A senha deve ter pelo menos 8 caracteres.
+            </small>
+          </div>
+
+          <div class="login-campo">
+            <label for="confirmar-senha">
+              Confirmar senha
+            </label>
+
+            <input
+              type="password"
+              id="confirmar-senha"
+              name="confirmar_senha"
+              placeholder="Digite a senha novamente"
+              autocomplete="new-password"
+              minlength="8"
+              required
+            >
+
+            <small
+              id="mensagem-senha"
+              class="cadastro-mensagem"
+              aria-live="polite"
+            ></small>
+          </div>
+
+          <button type="submit" class="login-submit" onclick="">
+            Criar minha conta
+          </button>
+
+        </form>
+
+        <p class="login-cadastro">
+          Já possui uma conta?
+          <a href="login.html">Entrar</a>
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="login-footer">
+    <p>
+      © 2026 Avance BikeShop. Todos os direitos reservados.
+    </p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>

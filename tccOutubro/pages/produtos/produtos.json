@@ -1,0 +1,99 @@
+
+[
+  {
+    "id": 1,
+    "nome": "Capacete MTB Pro",
+    "categoria": "Acessórios",
+    "preco": 249.90,
+    "imagem": "assets/capacete.jpg",
+    "descricao": "Capacete leve e resistente, ideal para trilhas e pedais de montanha.",
+    "estoque": 12,
+    "destaque": true,
+    "especificacoes": {
+      "Material": "Policarbonato",
+      "Modalidade": "MTB",
+      "Ventilação": "18 entradas de ar",
+      "Tamanhos": "M e G"
+    }
+  },
+  {
+    "id": 2,
+    "nome": "Pneu MTB 29",
+    "categoria": "Pneus",
+    "preco": 189.90,
+    "imagem": "assets/pneu-mtb.jpg",
+    "descricao": "Pneu para bicicletas aro 29, com ótima aderência em terrenos variados.",
+    "estoque": 8,
+    "destaque": false,
+    "especificacoes": {
+      "Aro": "29 polegadas",
+      "Modalidade": "MTB",
+      "Terreno": "Misto",
+      "Tipo": "Tubeless Ready"
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Freio a Disco Hidráulico",
+    "categoria": "Freios",
+    "preco": 429.90,
+    "imagem": "assets/freio.jpg",
+    "descricao": "Sistema de frenagem hidráulico para controle e segurança em diferentes condições.",
+    "estoque": 5,
+    "destaque": true,
+    "especificacoes": {
+      "Tipo": "Hidráulico",
+      "Aplicação": "MTB e uso urbano compatível",
+      "Sistema": "Disco",
+      "Conteúdo": "Consulte os componentes inclusos"
+    }
+  },
+  {
+    "id": 4,
+    "nome": "Corrente 12 Velocidades",
+    "categoria": "Transmissão",
+    "preco": 139.90,
+    "imagem": "assets/corrente.jpg",
+    "descricao": "Corrente para transmissões de 12 velocidades, com compatibilidade a confirmar com seu sistema.",
+    "estoque": 20,
+    "destaque": false,
+    "especificacoes": {
+      "Velocidades": "12",
+      "Aplicação": "Transmissão de bicicleta",
+      "Material": "Aço",
+      "Compatibilidade": "Verificar o modelo do câmbio e cassete"
+    }
+  },
+  {
+    "id": 5,
+    "nome": "Luz LED Recarregável",
+    "categoria": "Acessórios",
+    "preco": 89.90,
+    "imagem": "assets/luz-led.jpg",
+    "descricao": "Iluminação compacta para aumentar a visibilidade durante seus pedais.",
+    "estoque": 15,
+    "destaque": false,
+    "especificacoes": {
+      "Alimentação": "USB recarregável",
+      "Uso": "Dianteiro",
+      "Instalação": "Suporte para bicicleta",
+      "Modos": "Consultar modelo"
+    }
+  },
+  {
+    "id": 6,
+    "nome": "Pedal Plataforma",
+    "categoria": "Componentes",
+    "preco": 119.90,
+    "imagem": "assets/pedal.jpg",
+    "descricao": "Pedal plataforma para pedais urbanos, recreativos e trilhas, conforme compatibilidade.",
+    "estoque": 10,
+    "destaque": false,
+    "especificacoes": {
+      "Tipo": "Plataforma",
+      "Aplicação": "Uso urbano e MTB",
+      "Instalação": "Rosca compatível com o pedivela",
+      "Material": "Consultar modelo"
+    }
+  }
+]
